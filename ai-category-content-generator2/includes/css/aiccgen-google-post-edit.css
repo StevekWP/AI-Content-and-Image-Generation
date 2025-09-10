@@ -1,0 +1,103 @@
+#aiccgen-post-refine-image-wrapper .notice {
+    padding: 5px 10px;
+    margin-bottom: 5px;
+}
+.aiccgen-image-options-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin-bottom: 10px;
+}
+.aiccgen-image-option {
+    border: 2px solid #ddd;
+    padding: 5px;
+    cursor: pointer;
+    transition: border-color 0.3s;
+}
+.aiccgen-image-option label {
+    cursor: pointer;
+}
+.aiccgen-image-option.selected,
+.aiccgen-image-option:hover {
+    border-color: #007cba;
+}
+.aiccgen-image-option img {
+    max-width: 120px;
+    max-height: 120px;
+    height: auto;
+    display: block;
+}
+.aiccgen-image-option input[type="radio"] {
+    display: none;
+}
+#postimagediv .inside img {
+    background-image: none;
+}
+#aiccgen-post-editor-refine-wrapper .notice {
+    padding: 8px 12px;
+    margin-bottom: 10px;
+}
+#aiccgen-post-editor-refine-wrapper .notice.inline {
+    display: block; /* Or inline-block if you prefer */
+}
+#aiccgen-post-editor-refine-status {
+    margin-top: 10px;
+}
+p.description.reinfe-cntbx{
+        font-size: 14px;
+    background-color: #b8e97f;
+    color: #000;
+    font-weight: 600;
+    display: inline-block;
+}
+div#aiccgen_content_refinement_meta_box {
+    background-color: #b8e97f;
+}
+
+div#aiccgen-post-refine-image-wrapper {
+    background-color: #b8e97f;
+    padding: 0 10px 10px 10px;
+}
+
+div#aiccgen-post-refine-image-wrapper p.description {
+    color: #000;
+}
+p:empty {
+    margin: 0;
+}
+.button.button-postmetabx {
+    background-color: #ff0;
+    border-color: #ff0;
+    color: #f00;
+    font-size: 16px;
+    padding: 0 25px;
+    font-weight: 700;
+}
+
+#aiccgen_content_refinement_meta_box h2 {
+    font-size: 18px;
+}
+#aiccgen-post-refine-image-wrapper h2.hndle.ui-sortable-handle {
+    padding-top: 0;
+    font-size: 18px;
+    font-weight: 600;
+}
+#aiccgen-post-refine-image-wrapper .postbox-header {
+    margin: 0 -10px 5px -10px;
+}
+
+.wrap-msgbtn {
+    display: block;
+    clear: both;
+    width: 100%;
+    padding-top: 10px;
+    font-weight: 700;
+}
+
+
+div#aiccgen_reedit_ai_box {background-color: #b8e97f;}#poststuff div#aiccgen_reedit_ai_box h2 {font-size: 18px;}#poststuff div#aiccgen_reedit_ai_box p.description {font-weight: 600;color: #000;}
+.notice.inline {
+    text-align: left;
+    font-size: 13px;
+    padding: 5px 5px;
+}

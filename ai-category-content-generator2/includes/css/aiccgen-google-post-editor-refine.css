@@ -1,0 +1,18 @@
+#aiccgen-post-editor-refine-wrapper .notice {
+    padding: 8px 12px;
+    margin-bottom: 10px;
+}
+#aiccgen-post-editor-refine-wrapper .notice.inline {
+    display: block; /* Or inline-block if you prefer */
+}
+#aiccgen-post-editor-refine-status {
+    margin-top: 10px;
+}
+.reinfe-cntbx
+{
+        font-size: 14px;
+    background-color: #b8e97f;
+    color: #000;
+    font-weight: 600;
+    display: inline-block;
+}
